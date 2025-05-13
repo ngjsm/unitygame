@@ -5,7 +5,7 @@ using Leap.Unity;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class hand : MonoBehaviour
+public class startBT : MonoBehaviour
 {
     [Tooltip("게임 방법 설명 텍스트 오브젝트")]
     public GameObject instructionText;
