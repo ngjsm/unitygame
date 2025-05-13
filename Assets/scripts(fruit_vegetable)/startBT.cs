@@ -36,11 +36,10 @@ public class hand : MonoBehaviour
             {
                 gameStarted = true;
 
-                // 설명 텍스트 숨김
                 if (instructionText != null)
                     instructionText.SetActive(false);
 
-                spawnob.Instance.SpawnRandom(); // 게임 시작
+                spawnob.Instance.SpawnRandom();
                 Debug.Log("손 제스처로 게임 시작됨");
 
                 break;

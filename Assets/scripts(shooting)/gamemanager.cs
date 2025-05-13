@@ -7,7 +7,7 @@ public class gamemanager : MonoBehaviour
     public static gamemanager Instance;
 
     public bool gameStarted = false;
-    public GameObject startButton; // Start 버튼 오브젝트 연결 (큐브)
+    public GameObject startButton;
 
     void Awake()
     {
@@ -21,7 +21,7 @@ public class gamemanager : MonoBehaviour
     {
         gameStarted = true;
         if (startButton != null)
-            startButton.SetActive(false);  // 버튼 숨기기
+            startButton.SetActive(false);
         Debug.Log("게임 시작됨!");
     }
 
@@ -29,7 +29,7 @@ public class gamemanager : MonoBehaviour
     {
         gameStarted = false;
         if (startButton != null)
-            startButton.SetActive(true);  // 버튼 다시 보여줌
+            startButton.SetActive(true);
         Debug.Log("게임 리셋됨!");
     }
 }

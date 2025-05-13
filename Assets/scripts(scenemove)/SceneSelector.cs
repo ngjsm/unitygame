@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneSelector : MonoBehaviour
 {
-    public SceneButton[] sceneButtons;  // 인스펙터에서 연결
+    public SceneButton[] sceneButtons;
     private int currentIndex = 0;
 
     void Start()

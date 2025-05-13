@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SceneButton : MonoBehaviour
 {
-    public string sceneName;  // 이 버튼이 연결된 씬 이름
+    public string sceneName;
 
     public void Highlight(bool isSelected)
     {

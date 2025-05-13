@@ -93,7 +93,7 @@ public class spawnob : MonoBehaviour
 
         if (endText != null)
         {
-            int score = gamemanager2.Instance.GetScore(); // 점수 가져오기
+            int score = gamemanager2.Instance.GetScore();
             endText.text = $"게임 종료!\n점수: {score} / {maxPlaceCount}";
         }
 

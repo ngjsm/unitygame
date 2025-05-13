@@ -32,7 +32,6 @@ public class gamemanager2 : MonoBehaviour
         penaltyText.text = $"실수...: {penalty}";
     }
 
-    // ✅ 추가된 점수 조회 함수
     public int GetScore()
     {
         return score;

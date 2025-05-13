@@ -23,7 +23,7 @@ public class projectlie2 : MonoBehaviour
         if (other.CompareTag("StartButton"))
         {
             gamemanager.Instance?.StartGame();
-            Destroy(gameObject); // ÃÑ¾ËÀº ÆÄ±«
+            Destroy(gameObject);
             return;
         }
 
